@@ -248,7 +248,7 @@ We welcome contributions from the community! Here's how you can help:
 Found a bug? [Open an issue](https://github.com/yourusername/medicheck/issues/new?template=bug_report.md)
 
 ### 💡 **Feature Requests** 
-Have an idea? [Suggest a feature](https://github.com/yourusername/medicheck/issues/new?template=feature_request.md)
+Have an idea? [Suggest a feature](https://github.com/AkasK09/Medi-check/tree/main/.github/ISSUE_TEMPLATE)
 
 ### 🔧 **Development**
 1. Fork the repository
