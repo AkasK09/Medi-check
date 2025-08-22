@@ -266,9 +266,9 @@ Have an idea? [Suggest a feature](https://github.com/yourusername/medicheck/issu
 | Role | Name | GitHub | LinkedIn |
 |------|------|--------|----------|
 | **Team Lead** | Akash K | [@akashk](https://github.com/akashk) | [LinkedIn](https://linkedin.com/in/akashk) |
-| **ML Engineer** | Ananda Krishna | [@anandakrishna](https://github.com/anandakrishna) | [LinkedIn](https://linkedin.com/in/anandakrishna) |
-| **Full-Stack Dev** | Chidambaram D | [@chidambaram](https://github.com/chidambaram) | [LinkedIn](https://linkedin.com/in/chidambaram) |
-| **UI/UX Designer** | Aswin Ananth S | [@aswinananth](https://github.com/aswinananth) | [LinkedIn](https://linkedin.com/in/aswinananth) |
+| **ML Engineer** | Ananda Krishna | [@anandakrishna](https://github.com/ananda-0007) | [LinkedIn](linkedin.com/in/ananda-krishna-9b70902ab) |
+| **Full-Stack Dev** | Chidambaram D | [@chidambaram](https://github.com/Chidambaram4675) | [LinkedIn](linkedin.com/in/chidambaram-d-a8aa9332a) |
+| **UI/UX Designer** | Aswin Ananth S | [@aswinananth](https://github.com/Aswinx05) | [LinkedIn](linkedin.com/in/aswin-ananth-s-83371a32b) |
 
 **🎓 Rajalakshmi Institute of Technology**
 
