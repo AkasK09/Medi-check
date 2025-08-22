@@ -10,7 +10,7 @@
 
 **🚀 [Live Demo](https://medi-check.streamlit.app/) | 📊 [Datasets Used](#datasets) | 🎯 [Features](#features) | 🔧 [Installation](#installation)**
 
-<img src="https://github.com/AkasK09/Medi-check/blob/main/MediCheck%20Banner.png" alt="MediCheck Banner" width="800"/>
+<img src="https://github.com/AkasK09/Medi-check/blob/main/Medi-Check%20Banner.png" alt="MediCheck Banner" width="800"/>
 
 *An intelligent health screening assistant that provides early health risk awareness through AI-powered symptom analysis*
 
