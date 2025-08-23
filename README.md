@@ -313,7 +313,7 @@ distribute, sublicense, and/or sell copies of the Software.
 
 ### 🌟 Star this repository if you found it helpful!
 
-**[⭐ Star](https://github.com/yourusername/medicheck/stargazers) • [🐛 Issues](https://github.com/yourusername/medicheck/issues) • [🚀 Contribute](https://github.com/yourusername/medicheck/pulls) • [📖 Docs](https://github.com/yourusername/medicheck/wiki)**
+
 
 ---
 
