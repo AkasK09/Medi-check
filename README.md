@@ -133,7 +133,7 @@ Our models are trained on comprehensive medical datasets:
 
 ## 🚀 Quick Start
 
-### 🌐 **Try Online (Recommended)**
+### 🌐 **Try Online **
 Visit our live application: **[https://medi-check.streamlit.app/](https://medi-check.streamlit.app/)**
 
 ### 💻 **Local Installation**
