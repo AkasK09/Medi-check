@@ -419,9 +419,9 @@ st.markdown("""
 @st.cache_resource
 def load_models():
     try:
-        clf = joblib.load("model/disease_model.pkl")
-        mlb = joblib.load("model/symptom_encoder.pkl")
-        le = joblib.load("model/label_encoder.pkl")
+        clf = joblib.load("disease_model.pkl")
+        mlb = joblib.load("symptom_encoder.pkl")
+        le = joblib.load("label_encoder.pkl")
         return clf, mlb, le
     except:
         st.error("❌ Model files not found. Please ensure the model files are in the correct directory.")
@@ -698,4 +698,5 @@ with st.sidebar:
     - 🏥 [Find Healthcare Providers](/)
     - 📧 [Technical Support](/)
     - 🔒 [Privacy Policy](/)
+
     """)
