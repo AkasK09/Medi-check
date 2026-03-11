@@ -424,7 +424,7 @@ def load_models():
         le = joblib.load("label_encoder.pkl")
         return clf, mlb, le
     except:
-        st.error("❌ Model files not found. Please ensure the model files are in the correct directory.")
+        st.error(" Model files not found. Please ensure the model files are in the correct directory.")
         st.stop()
 
 @st.cache_data
@@ -438,7 +438,7 @@ def load_precautions():
             precaution_map[disease] = precs
         return precaution_map
     except:
-        st.warning("⚠️ Precautions data not found. Predictions will work without precautions.")
+        st.warning(" Precautions data not found. Predictions will work without precautions.")
         return {}
 
 # Load models and data
@@ -461,7 +461,7 @@ with col1:
     st.markdown("""
     <div class="card">
         <div class="card-header">
-            <h2 class="card-title">🔍 Symptom Analysis</h2>
+            <h2 class="card-title"> Symptom Analysis</h2>
             <p class="card-description">Select symptoms for comprehensive medical analysis</p>
         </div>
     """, unsafe_allow_html=True)
@@ -483,7 +483,7 @@ with col1:
         """, unsafe_allow_html=True)
     
     # Prediction Button
-    predict_button = st.button("🔮 Analyze Symptoms", type="primary")
+    predict_button = st.button(" Analyze Symptoms", type="primary")
     
     st.markdown("</div>", unsafe_allow_html=True)
 
@@ -492,16 +492,16 @@ with col2:
     st.markdown("""
     <div class="card">
         <div class="card-header">
-            <h2 class="card-title">📊 Analysis Results</h2>
+            <h2 class="card-title"> Analysis Results</h2>
             <p class="card-description">AI-powered medical insights and recommendations</p>
         </div>
     """, unsafe_allow_html=True)
     
     if predict_button:
         if not selected_symptoms:
-            st.warning("⚠️ Please select at least one symptom to continue with the analysis.")
+            st.warning(" Please select at least one symptom to continue with the analysis.")
         else:
-            with st.spinner("🤖 Processing symptoms with AI..."):
+            with st.spinner(" Processing symptoms with AI..."):
                 # Vectorize input
                 input_vec = mlb.transform([selected_symptoms])
                 
@@ -524,11 +524,11 @@ with col2:
                 
                 # Confidence indicator
                 if confidence >= 80:
-                    st.success("🎯 High confidence prediction")
+                    st.success(" High confidence prediction")
                 elif confidence >= 60:
-                    st.warning("⚠️ Moderate confidence - consider additional symptoms")
+                    st.warning(" Moderate confidence - consider additional symptoms")
                 else:
-                    st.error("❌ Low confidence - please consult a healthcare provider")
+                    st.error(" Low confidence - please consult a healthcare provider")
     
     st.markdown("</div>", unsafe_allow_html=True)
 
@@ -542,13 +542,13 @@ if predict_button and selected_symptoms:
     st.markdown("""
     <div class="card">
         <div class="card-header">
-            <h2 class="card-title">📈 Detailed Analysis</h2>
+            <h2 class="card-title"> Detailed Analysis</h2>
             <p class="card-description">Comprehensive breakdown of possible conditions</p>
         </div>
     """, unsafe_allow_html=True)
     
     # Tabs for different views
-    tab1, tab2, tab3 = st.tabs(["📊 Probability Rankings", "🎯 Confidence Chart", "📋 Detailed Report"])
+    tab1, tab2, tab3 = st.tabs([" Probability Rankings", " Confidence Chart", " Detailed Report"])
     
     with tab1:
         # Horizontal bar chart
@@ -637,7 +637,7 @@ if predict_button and selected_symptoms:
         st.markdown("""
         <div class="card">
             <div class="card-header">
-                <h2 class="card-title">💡 Medical Recommendations</h2>
+                <h2 class="card-title"> Medical Recommendations</h2>
                 <p class="card-description">Evidence-based precautions and care guidelines</p>
             </div>
             <div class="precaution-list">
@@ -674,10 +674,10 @@ with st.sidebar:
     ### 🩺 MediCheck Professional
     
     **Advanced Features:**
-    - 🤖 Machine Learning Analysis
-    - 📊 Statistical Modeling
-    - 💡 Evidence-Based Recommendations
-    - ⚡ Real-time Processing
+    -  Machine Learning Analysis
+    -  Statistical Modeling
+    -  Evidence-Based Recommendations
+    -  Real-time Processing
     
     **Clinical Workflow:**
     1. **Symptom Collection** - Systematic input gathering
@@ -694,9 +694,10 @@ with st.sidebar:
     - Version: 2.1.0
     
     **Support & Resources:**
-    - 📖 [User Manual](/)
-    - 🏥 [Find Healthcare Providers](/)
-    - 📧 [Technical Support](/)
-    - 🔒 [Privacy Policy](/)
+    -  [User Manual](/)
+    -  [Find Healthcare Providers](/)
+    -  [Technical Support](/)
+    -  [Privacy Policy](/)
 
     """)
+
