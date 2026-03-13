@@ -20,9 +20,9 @@
 
 ## 🌟 Overview
 
-**MediCheck** is an innovative AI-powered health risk prediction tool developed for **SERVE-A-THON 2025**. Our mission is to democratize healthcare access by providing intelligent symptom analysis and personalized health insights to everyone, anywhere.
+**MediCheck** is an innovative AI-powered health risk prediction tool <!--developed for **SERVE-A-THON 2025**-->. Our mission is to democratize healthcare access by providing intelligent symptom analysis and personalized health insights to everyone, anywhere.
 
-> 🏆 **Team Chhichhore** | Rajalakshmi Institute of Technology
+<!-- > 🏆 **Team Chhichhore** | Rajalakshmi Institute of Technology -->
 
 ### 🎯 The Problem We Solve
 
@@ -258,7 +258,7 @@ Have an idea? [Suggest a feature](https://github.com/AkasK09/Medi-check/blob/mai
 5. Open a Pull Request
 
 ---
-
+<!--
 ## 👥 Team Chhichhore
 
 <div align="center">
@@ -273,7 +273,7 @@ Have an idea? [Suggest a feature](https://github.com/AkasK09/Medi-check/blob/mai
 **🎓 Rajalakshmi Institute of Technology**
 
 </div>
-
+-->
 ---
 
 ## ⚠️ Important Medical Disclaimer
@@ -298,7 +298,7 @@ distribute, sublicense, and/or sell copies of the Software.
 ```
 
 ---
-
+<!--
 ## 🙏 Acknowledgments
 
 - 🏆 **SERVE-A-THON 2025** for providing the platform to showcase our innovation
@@ -308,7 +308,7 @@ distribute, sublicense, and/or sell copies of the Software.
 - 👨‍⚕️ **Healthcare Professionals** who inspired this project's ethical approach
 
 ---
-
+-->
 <div align="center">
 
 ### 🌟 Star this repository if you found it helpful!
@@ -317,7 +317,7 @@ distribute, sublicense, and/or sell copies of the Software.
 
 ---
 
-**Made with ❤️ by Team Chhichhore | SERVE-A-THON 2025**
+
 
 *Empowering healthier lives through intelligent technology*
 
